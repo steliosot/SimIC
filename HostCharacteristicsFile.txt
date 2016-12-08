@@ -1,0 +1,9 @@
+HostName: Cl.St.Host
+HostOS: Linux
+Platform: Intel
+Memory(GB): 10
+CPU-cores: 10
+CPU-speed: 4000
+H/D-Controller: CD-DVD
+Storage-HD: 10000
+BW: 10000
