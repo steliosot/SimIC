@@ -1,0 +1,81 @@
+echo Compilation started
+
+echo compiling User.java...
+javac User.java
+
+echo compiling UserCharacteristics.java...
+javac UserCharacteristics.java
+
+echo compiling ServiceCharacteristics.java...
+javac ServiceCharacteristics.java
+
+echo compiling OutputUserRequirements.java...
+javac OutputUserRequirements.java
+
+echo compiling OpenProfile.java...
+javac OpenProfile.java
+
+echo compiling Metabroker.java...
+javac Metabroker.java
+
+echo compiling Cloud.java...
+javac Cloud.java
+
+echo compiling Datacenter.java...
+javac Datacenter.java
+
+echo compiling Accounting.java...
+javac Accounting.java
+
+echo compiling Host.java...
+javac Host.java
+
+echo compiling OpenHosts.java...
+javac OpenHosts.java
+
+echo compiling OpenHostsList.java...
+javac OpenHostsList.java
+
+echo compiling HostCharacteristics.java...
+javac HostCharacteristics.java
+
+echo compiling VM.java...
+javac VM.java
+
+echo compiling HostScheduler.java
+javac HostScheduler.java
+
+echo compiling VMScheduler.java
+javac VMScheduler.java
+
+echo compiling Bucket.java
+javac Bucket.java
+
+echo compiling Splitter.java
+javac Splitter.java
+
+echo compiling printText.java
+javac printText.java
+
+echo compiling Hyper.java
+javac Hyper.java
+
+echo compiling SplitterSpace.java
+javac SplitterSpace.java
+
+echo compiling CreateResults.java
+javac CreateResults.java
+
+echo compiling OverallResults.java
+javac OverallResults.java
+
+echo compiling ICMS Simulator
+javac Simulation.java
+
+echo compiling DrawVMsMakespan.java...
+javac DrawVMsMakespan.java
+
+echo Compilation ended
+
+echo Running ICMS...
+java Simulation
